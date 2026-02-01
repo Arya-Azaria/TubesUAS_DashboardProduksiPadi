@@ -90,7 +90,7 @@ def add_coordinates(df):
 
 # PROGRAM UTAMA
 def main():
-    st.title("🌾 Dashboard Monitoring Padi Nasional")
+    st.title("🌾 Dashboard Monitoring Padi Pulau Jawa dan Sumatera")
     
     df = load_data('data_padi_final.json')
     if df.empty:
@@ -378,4 +378,5 @@ def main():
             st.warning("Data tidak ditemukan dengan kombinasi filter tersebut.")
 
 if __name__ == "__main__":
+
     main()
